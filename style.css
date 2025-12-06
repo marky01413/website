@@ -1,0 +1,54 @@
+body {
+background: linear-gradient(to bottom right, #3b82f6, #9333ea); 
+background-size: cover;
+    background-attachment: fixed;
+}
+
+
+h1, h2, h3, h4, h5, h6, p, label, a, span, button {
+color: #ffffff !important;
+}
+
+
+.dark-card {
+background: #222;
+border-radius: 12px;
+animation: slideUp 0.4s ease;
+color: #ffffff !important;
+}
+
+
+.fade-in {
+animation: fadeIn 0.7s ease;
+}
+
+
+@keyframes fadeIn {
+from { opacity: 0; }
+to { opacity: 1; }
+}
+
+
+@keyframes slideUp {
+from { transform: translateY(30px); opacity: 0; }
+to { transform: translateY(0); opacity: 1; }
+}
+
+
+input {
+background: #333 !important;
+color: #ffffff !important;
+}
+.back-btn {
+  background-color: gray;   /* Button color */
+  color: white;             /* Font color */
+  border: none;             /* Remove default border */
+  padding: 8px 16px;        /* Adjust padding */
+  border-radius: 5px;       /* Rounded corners */
+  cursor: pointer;          /* Pointer on hover */
+  font-size: 16px;          /* Font size */
+}
+
+.back-btn:hover {
+  background-color: darkgray; /* Slightly darker on hover */
+}
